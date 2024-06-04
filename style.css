@@ -1,105 +1,23 @@
-/*this will reset everything with the star *{
-    margin:0;
-    padding:0;
-}*/
+/* General styles for the entire website*/
 
-body{
-    background-color:#fff;
-    color:rgb(10, 9, 9);
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    font-size:18px;
-    font-weight:bold;
-
-    /*same as above but shorter way*/
-    font:normal 18px Arial, Helvetica, sans-serif;
-
-    line-height:1.6em; /*can also make this pixels*/
-    margin:0;
-
-
+body {
+    font-family: Arial, sans-sherif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
-a{
-    text-decoration:none;
-    color:#000;
+h1 {
+    color: #333;
 }
 
-a:hover{
-    color:red;
-
+a {
+    color: purple;
+    text-decoration: none;
 }
 
-a:active{
-    color:green;
-
-}
-
-.container{
-    width:80%; /*percent instead of pixels so it resizes with the window*/
-    margin:auto;
-
-}
-
-.box-1{
-    background-color:#333;
-    color:#fff;
-
-    border-right:5px red solid;
-    border-left:5px red solid;
-    border-top:5px red solid;
-    border-bottom:5px red solid;
-
-   /*shorthand if all the same is border:5px red solid;*/
-   border-width:3px; 
-   border-bottom-width:10px; 
-   border-top-style:dotted;
-
-   padding-top:20px;
-   padding:20px; 
-
-   margin-top:20px;
-   margin:20px 0;
-
-}
-
-.box-1 h1{
-    font-family:Tahoma;
-    font-weight:800;
-    font-style:italic;
-    text-decoration:underline;
-    text-transform:uppercase;
-    letter-spacing:0.2em;
-    
-}
-
-.box-2{
-    border:3px dotted #ccc;
-    padding:20px;
-    margin:20px 0;
-}
-
-.categories{
-    border:1px #ccc solid;
-    padding:10px;
-    border-radius:15px;
-
-}
-
-.categories h2{
-    text-align:center;
-}
-
-.categories ul{
-    padding:0;
-    list-style:square;
-    list-style:none;
-}
-
-.categories li{
-    padding-bottom:6px;
-    border-bottom:dotted 1px #333;
-    list-style-image:url('../image/check.png');
+a:hover {
+    color:aqua;
+    text-decoration: underline;
 }
 
