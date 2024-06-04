@@ -1,7 +1,7 @@
 /* General styles for the entire website*/
 
 body.home-page {
-    font-family: Arial, sans-sherif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -21,6 +21,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/*specific styles for the web design page*/
 body.web-design {
     display: flex;
     justify-content: center;
@@ -29,6 +30,7 @@ body.web-design {
     margin: 0;
 }
 
+/*specific styles for the QR web container page*/
 body.qr-web-container {
     display: flex;
     justify-content: center;
