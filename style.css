@@ -1,6 +1,6 @@
 /* General styles for the entire website*/
 
-body {
+body.home-page {
     font-family: Arial, sans-sherif;
     margin: 0;
     padding: 0;
