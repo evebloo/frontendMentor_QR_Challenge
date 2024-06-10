@@ -49,11 +49,11 @@ body.web-design {
 .qr-padding {
     background-color: white;
     padding: 1rem; 
-    padding-bottom: 2rem;
+    padding-bottom: calc(2rem + 96px); /* Add approximately 1 inch (96px) more padding */;
     border-radius: 15px;
     box-shadow: 0 4px 18px hsl(212, 45%, 89%);
     text-align: center;
-    max-width: 300px;
+    max-width: 450px;
     width: 100%;
 }
 
