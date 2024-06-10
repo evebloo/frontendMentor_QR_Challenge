@@ -35,8 +35,7 @@ body.web-design {
 
 .qr-frame {
     background-color: hsl(212, 45%, 89%); /* Light grey-blue color */
-    padding: 1rem;
-    border-radius: 15px;
+    padding: 2rem;
     box-shadow: 0 4px 16px hsl(220, 15%, 55%);
 }
 
@@ -46,7 +45,7 @@ body.web-design {
     border-radius: 15px;
 }
 
-.text-container {
+.qr-padding {
     background-color: white;
     padding: 1rem;
     padding-bottom: 6rem; /* Extend bottom padding */
