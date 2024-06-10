@@ -39,16 +39,9 @@ body.web-design {
     box-shadow: 0 4px 18px hsl(212, 45%, 89%);
 }
 
-.qr-code {
-    display: block;
-    width: 100%;
-    margin-bottom: 1rem; /* Space between the QR code and text */
-    border-radius: 15px;
-}
-
 .qr-padding {
     background-color: white;
-    padding: 1rem; 
+    padding: 1rem 1rem 0.5rem 1rem; /* Adjust padding: top right bottom left */ 
     border-radius: 15px;
     box-shadow: 0 4px 18px hsl(212, 45%, 89%);
     text-align: center;
@@ -64,8 +57,7 @@ body.web-design {
 }
 
 .normal-text {
-    font-size: 0.5rem; 
-    font-weight: 400;
+    font-size: 0.85rem; 
     margin: 0;
     color: hsl(220, 15%, 55%);
 }
