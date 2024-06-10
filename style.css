@@ -48,10 +48,12 @@ body.web-design {
 
 .qr-padding {
     background-color: white;
-    padding: 1rem; /* Adjust padding: top right bottom left */;
+    padding: 1rem; 
+    padding-bottom: 2rem;
     border-radius: 15px;
     box-shadow: 0 4px 18px hsl(212, 45%, 89%);
     text-align: center;
+    max-width: 300px;
     width: 100%;
 }
 
