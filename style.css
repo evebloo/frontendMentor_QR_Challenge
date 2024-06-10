@@ -37,7 +37,7 @@ body.web-design {
     background-color: hsl(212, 45%, 89%); /* Light grey-blue color */
     padding: 1rem;
     border-radius: 15px;
-    box-shadow: 0 4px 8px hsl(220, 15%, 55%);
+    box-shadow: 0 4px 16px hsl(220, 15%, 55%);
 }
 
 .qr-code {
@@ -51,7 +51,7 @@ body.web-design {
     padding: 1rem;
     padding-bottom: 6rem; /* Extend bottom padding */
     border-radius: 15px;
-    box-shadow: 0 4px 8px hsl(220, 15%, 55%);
+    box-shadow: 0 4px 16px hsl(220, 15%, 55%);
     text-align: center;
 }
 
