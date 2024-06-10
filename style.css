@@ -49,6 +49,7 @@ body.web-design {
 .qr-code {
     display: block;
     width: 100%;
+    margin-bottom: 1rem; /* Space between the QR code and text */
     border-radius: 15px;
 }
 
@@ -59,7 +60,8 @@ body.web-design {
     border-radius: 15px;
     box-shadow: 0 4px 18px hsl(220, 15%, 55%);
     text-align: center;
-    max-width: 90%;
+    max-width: 300px;
+    width: 100%;
 }
 
 .bold-text {
