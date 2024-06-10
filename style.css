@@ -41,7 +41,7 @@ body.web-design {
 
 .qr-padding {
     background-color: white;
-    padding: 1rem 0.4rem 2rem 0.4rem; /* Adjust padding: top right bottom left */ 
+    padding: 1rem 0.25rem 2rem 0.25rem; /* Adjust padding: top right bottom left */ 
     border-radius: 15px;
     box-shadow: 0 4px 18px hsl(210, 17%, 75%);
     text-align: center;
@@ -57,7 +57,7 @@ body.web-design {
 }
 
 .normal-text {
-    font-size: 0.7rem; 
+    font-size: 0.75rem; 
     margin: 0;
     margin-top: 0.5rem;
     color: hsl(220, 15%, 55%);
