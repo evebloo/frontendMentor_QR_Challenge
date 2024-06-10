@@ -7,10 +7,6 @@ body.home-page {
     background-color: #f0f0f0;
 }
 
-h1 {
-    color: #333;
-}
-
 a {
     color: hsl(218, 44%, 22%);
     text-decoration: underline;
@@ -30,9 +26,42 @@ body.web-design {
     margin: 0;
 }
 
-/*specific styles for the QR web container page*/
-body.qr-web-container {
+/* Specific styles for the QR web container */
+.qr-web-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.qr-frame {
+    background-color: hsl(212, 45%, 89%); /* Light grey-blue color */
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px hsl(220, 15%, 55%);
+}
+
+.qr-code {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text-container {
+    background-color: white;
+    padding: 1rem;
+    padding-bottom: 6rem; /* Extend bottom padding */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px hsl(220, 15%, 55%);
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+    margin: 0;
+}
+
+.normal-text {
+    font-size: 0.875rem; /* Smaller font size */
+    margin: 0;
+    margin-top: 0.5rem;
 }
