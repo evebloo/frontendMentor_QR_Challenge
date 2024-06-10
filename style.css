@@ -28,14 +28,6 @@ body.web-design {
 }
 
 /* Specific styles for the QR web container */
-.qr-web-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
 .qr-frame {
     background-color: hsl(212, 45%, 89%); /* Light grey-blue color */
     width: 100%;
@@ -56,7 +48,6 @@ body.web-design {
 .qr-padding {
     background-color: white;
     padding: 1rem;
-    padding-bottom: 6rem; /* Extend bottom padding */
     border-radius: 15px;
     box-shadow: 0 4px 18px hsl(220, 15%, 55%);
     text-align: center;
