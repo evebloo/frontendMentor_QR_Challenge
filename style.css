@@ -34,9 +34,10 @@ body.web-design {
 }
 
 .qr-frame {
-    background-color: hsl(212, 45%, 89%); /* Light grey-blue color */
-    padding: 2rem;
-    box-shadow: 0 4px 16px hsl(220, 15%, 55%);
+        background-color: hsl(212, 45%, 89%); /* Light grey-blue color */
+        padding: 2rem; /* Padding around the entire content */
+        border-radius: 15px;
+        box-shadow: 0 4px 16px hsl(220, 15%, 55%);
 }
 
 .qr-code {
@@ -57,10 +58,21 @@ body.web-design {
 .bold-text {
     font-weight: bold;
     margin: 0;
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
 }
 
 .normal-text {
     font-size: 0.875rem; /* Smaller font size */
     margin: 0;
     margin-top: 0.5rem;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.qr-code {
+    display: block;
+    width: 100%;
+    border-radius: 15px; /* Add rounded edges to the QR code image */
+    margin-bottom: 1rem; /* Space between the QR code and text */
 }
